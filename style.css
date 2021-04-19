@@ -1,0 +1,75 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .centered-align {
+    width: 700px;
+      }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .centered-align {
+    width: 500px;
+        }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .centered-align {
+    width: 300px;
+  }
+}
+li { padding-right: 40px }
+ul {list-style: none;}
+p { font-weight: ; }
+
+body { background: #184d47;
+	font-family: 'Kiwi Maru', serif;
+	font-size: 24px;
+	color: #c64756;
+	text-align: center;
+}
+a { text-decoration: none;
+	color: #fad586;
+	transition: color 0.3s ease; }
+h1,h2 {
+	font-family:'Open Sans', sans-serif;
+	color: #96bb7c;
+}
+h1 { font-weight: bold;
+font-size: 60px }
+
+#profile {align-content: center;}
+
+
+a:hover {
+	color: #4b778d;
+	text-emphasis: none;
+}
+
+.card {
+	background: #184d47;
+	
+padding: 15px;
+margin: 15px;
+box-shadow: 0px 10px 30px #4b778d;
+border-radius:4px;
+border-color: blue;
+border: 1px solid #4b778d}
+.centered-align {
+	width: 700px;
+	margin: 40px auto;
+	border: none;
+	text-align: center;
+	box-shadow: none;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #4b778d;
+	color: #fad586;
+	padding: 5px 20px;
+}	
+.list-inline li{
+	display: inline;
+	padding: 10px
+
+}
